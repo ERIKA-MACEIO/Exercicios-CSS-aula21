@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha primeira página com estilos</title>
+</head>
+<body>
+    <!--CSS interno, não preciso declarar uma a uma-->
+    <style>
+        body{
+            background-color:darkgoldenrod;
+            text-align: center;
+        }
+        div{
+            background-color:rgb(21, 168, 119);
+            border: 5px solid black;
+        }
+        .div2{
+            background-color: brown;
+            text-align:left;
+            color:bisque;
+        }
+    </style>
+
+    <!--CSS Inline, válido apenas na tag em que a estilização foi inserida-->
+    <h1 style="font-size: 50px; color:blue">Minha primeira página com estilos</h1>
+    <p style="font-size: 24px; color:blueviolet">Estamos desenvolvendo nossas primeiras folhas de estilos</p>
+    <div>
+        texto dentro de uma div
+    </div>
+
+    <div class="div2">
+        texto dentro de outra div
+    </div>
+
+    <div>
+        mais um texto dentro de uma div 
+    </div>
+</body>
+</html>
